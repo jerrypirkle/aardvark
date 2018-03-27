@@ -25,7 +25,7 @@ Aardvark uses PhantomJS to log into the AWS Console and obtain access advisor da
    15  mv * /opt/phantomjs/
    16  ln -s /opt/phantomjs/bin/phantomjs /usr/bin/phantomjs
    17  phantomjs /opt/phantomjs/examples/hello.js
-   18  yum -y install postgresql-libs
+   18  yum -y install postgresql-libs postgresql-devel
 ```
 
 ```bash
