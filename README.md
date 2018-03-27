@@ -11,7 +11,7 @@ Aardvark uses PhantomJS to log into the AWS Console and obtain access advisor da
 
 ## Install:
 
-'''bash
+```bash
     1  yum -y update
     2  yum install python
     3  yum -y groupinstall development
@@ -26,7 +26,7 @@ Aardvark uses PhantomJS to log into the AWS Console and obtain access advisor da
    16  ln -s /opt/phantomjs/bin/phantomjs /usr/bin/phantomjs
    17  phantomjs /opt/phantomjs/examples/hello.js
    18  yum -y install postgresql-libs
-'''
+```
 
 ```bash
 mkvirtualenv aardvark
